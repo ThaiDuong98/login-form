@@ -22,6 +22,10 @@ button {
   cursor: pointer;
 }
 
+a {
+  text-decoration: underline;
+}
+
 .container {
   display: flex;
   justify-content: center;
@@ -74,7 +78,6 @@ button {
 .container .form-container .right-form .right-container form a {
   display: block;
   text-align: center;
-  text-decoration: underline;
   margin-bottom: 15px;
   cursor: pointer;
 }

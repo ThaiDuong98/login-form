@@ -22,6 +22,10 @@ button{
     cursor: pointer;
 }
 
+a{
+    text-decoration: underline;
+}
+
 .container{
     display: flex;
     justify-content: center;
@@ -83,7 +87,6 @@ button{
                     a{
                         display: block;
                         text-align: center;
-                        text-decoration: underline;
                         margin-bottom: 15px;
                         cursor: pointer;
                     }
