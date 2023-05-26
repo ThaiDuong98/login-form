@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
 input{
     padding: 12px 10px;
     margin: 8px 0;
@@ -12,6 +16,14 @@ input{
     background: #F8F8F8;
     width: 100%;
     box-sizing: border-box;
+}
+
+input[type="password"]{
+    letter-spacing: 5px;
+}
+
+::placeholder {
+    letter-spacing: normal;
 }
 
 button{
@@ -73,6 +85,10 @@ a{
                 p{
                     margin-bottom: 50px;
                     margin-top: 20px;
+
+                    a{
+                        font-weight: bold;
+                    }
                 }
 
                 form{
